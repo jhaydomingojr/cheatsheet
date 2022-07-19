@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta viewport="UTF-8">
+	<meta http-equiv='X-UA-Compatible' content='IE-edge'>
+	<meta name="viewport" content="width=device-width, initial-scale=-1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-fontawesome/4.7.0/css/font-fontawesome.min.css>
+<style>
+  body {
+
+			background-color: black;
+			font-family: cursive;
+		}
+
+		.glow {
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			animation: glow 2s ease-in-out infinite alternate;
+		}
+
+		@-webkit-keyframes glow {
+			from {
+				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+				0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+			}
+
+			to {
+				text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+				0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+			}
+		}
+
+		.sub-menu-1{
+			display: none;
+		}
+
+		.menu-bar ul li:hover .sub-menu-1
+		{
+			display: block;
+			position: absolute;
+			background: rgba(0,100,0);
+			margin-top: 15px;
+			margin-left: -15px;
+		}
+		.menu-bar ul li:hover .sub-menu-1 ul
+		{
+			display: block;
+			margin: 10px;
+		}
+
+		.menu-bar ul li:hover .sub-menu-1 ul li
+		{
+			width: 150px;
+			padding: 10px;
+			border-bottom:  1px dotted black;
+			background: transparent;
+			border-radius: 0px;
+			text-align:  left;
+		}
+			.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+				border-bottom: none;
+			}
+				.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+					color: #b2ff00;
+				}
+				 .fa-angle-right{
+					float: right;
+				}
+</style>
+</head>
+<h1 class="glow">welcome to my Portpollio...</h1>
+</head>
+<body style="background-color: tomato",>
+	<div class="container">
+	<div class="menu-bar">
+		<nav>
+    <ul>
+    <li class="active"><a href="home.html"><i class="fa fa-home"></i>home</a>
+    </li>
+	<li><a href="About.html"><i class="fa fa-user"></i>About us</a>
+	           <div class="sub-menu-1">
+							<ul>
+								  <li><a href="#">mission</a></li>
+									 <li><a href="#">Vission</a></li>
+									  <li><a href="#">Team</a></li>
+							</ul>
+						 </div>
+</li>
+	<li><a href="Services.html"><i class="fa fa-clone"></i>Services</a>
+						<div class="sub-menu-1">
+	 					<ul>
+			 		<li class="hover-me"><li><a href="#">Web Designing</a></li><i class="fa fa-angle-right"></i></li>
+						<li><a href="#">Marketing</a></li>
+				 		<li><a href="#">Programmer</a></li>
+	 </ul>
+   </div>
+ </li>
+
+	<li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+	<li><a href="#"><i class="fa fa-angellist"></i>Investers</a></li>
+	<li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
+	<li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+	<li><a href="login.html"></i>login</a></li>
+    </li>
+	</ul>
+	<form class ="search-form">
+		<input type="text" placeholder="search here...">
+		<button>Search</button>
+	</form>
+</nav>
+	</div>
+	<img src="logo.jpg"alt="globe-company" class="center">
+<p>LOGO OF COMPANY</p>
+
+<div class="container">
+<div class="row">
+ <h3 style="background-color: skyblue">text 1</h3>
+ <p style="color:whitesmoke"<strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	 Ut enim ad minim veniam,
+	 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+	 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></strong>
+</div>
+<div class="col-sm-4">
+<h4 style="background-color: skyblue">text 2</h3>
+<p style="color:whitesmoke">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+</div>
+
+	<div class="footer">
+	<p><b>PRACTICE LANG@2022!</p></b>
+	<h5>contact-us@myEmail add</h5><br>
+	<a href="mailto:jhaydomingojr7@gmail.com">jhaydomingijr7@gmail.com</a></p>
+    </div>
+	</div>
+</body>
+</html>

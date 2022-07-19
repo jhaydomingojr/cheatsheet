@@ -1,0 +1,89 @@
+*{
+	margin: 2px;
+	padding: 2px
+}
+.menu-bar
+{
+	background-color: rgb(20, 500, 20);
+	text-align: center;
+
+
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+.menu-bar ul li {
+	width: 100px;
+	margin: 1px;
+	padding: 0px;
+	border-radius: 5px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	width: 100px;
+	letter-spacing: 0;
+
+}
+.active, .menu-bar ul li:hover
+{
+	background-color: #2bab0d;
+	border-radius: 5px;
+	opacity: 0.5;
+	font-size: 10px;
+}
+
+p {
+	border: 10px;
+	margin: 5px;
+	color: solidblack;
+	font-family: courier;
+	font-size: 100%;
+}
+
+.body {
+	align-content: center;
+	background-color: yellowgreen;
+	height: 100%;
+	width: 100%;
+
+}
+.footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    background-color:skyblue;
+    color: whitesmoke;
+    text-align: center;
+		border-radius: 500px;
+		padding: 0px
+    }
+
+ .company  {
+   	width: 125px;
+   	height: 20px;
+   	border: 5px;
+   	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 0, 1.0);
+
+   }
+ .center {
+    width: 300px;
+		height:400x;
+ {
+.form{
+	float:right;
+}
+container{
+	padding: 0 16px;
+}
